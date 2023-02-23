@@ -1,0 +1,57 @@
+body {
+    background-image: url('lightpink.jpeg');
+    background-repeat: repeat;
+    background-position: right top;
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 200px 500px;
+    justify-content: center;
+}
+
+.grid-item {
+    margin: 20px;
+}
+
+.item1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.item3 {
+    grid-column: 3/4;
+    grid-row: 2;
+}
+
+
+.item2 {
+    grid-column: 3/4;
+    grid-row: 1;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    /* position: fixed; */
+}
+
+.navitem {
+    padding: 20px;
+    margin: 20px;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    background-color: black;
+    color: pink;
+}
+
+img {
+    width: 300px;
+}
+
+
+

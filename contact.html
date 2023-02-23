@@ -14,8 +14,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap" rel="stylesheet">
 
 </head>
-
 <body>
+
+    <script>
+        function myFunction() {
+            alert("I hope you enjoyed my website!");
+        }
+    </script>
 
     <div class="container">    
         <a href="index.html"><h3 class="nav">about me</h3></a>
@@ -23,15 +28,19 @@
         <a href="contact.html"><h3 class="nav">contact</h3></a>
     </div>
 
-    <div class="grid-container1">
-        <button class="item1" type="image" onclick="alert('Nice to meet you!')"><img class="item1" src="SrihithaPallapothula.jpg" alt="Srihitha Pallapothula smiling"></button>
-        <h2 class="item2">hello!</h2>
-        <h5 class="item3">My name is Srihitha. I'm a freshman at UC Berkeley, hoping to major in computer science and minor in creative writing. 
-            I'm really passionate about the intersection between technology, storytelling, and social good.<br><br>
-            In my free time, I enjoy volunteering with the Student Food Collective and teaching/mentoring. 
-            I also love reading, writing—trying to get working on my first novel, baking, cooking, hiking, and restaurant hunting.</h5> 
+    <div class="contact">
+        <form>
+            <a href="mailto:srihitha@berkeley.edu"><h2><label id="contacttitle" for="form">reach out!</label><br></h2></a>
+            <input type="text" placeholder="Your name!">
+            <br>
+            <input type="email" placeholder="Email">
+            <br>
+            <input type="text" placeholder="Message">
+            <br>
+            <input id="submit" type="submit" onclick="myFunction()" value="Submit">
+         </form>
     </div>
-
+    
     <br>
     <br>
     <h4 class="watermark">@Srihitha Pallapothula 2023</h4>
